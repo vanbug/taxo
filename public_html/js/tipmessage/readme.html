@@ -1,0 +1,298 @@
+
+<HTML>
+<HEAD>
+<TITLE>DHTML Tip Message version 1.2</TITLE>
+<SCRIPT language="JavaScript1.2" src="main.js" type="text/javascript"></SCRIPT>
+</HEAD>
+<BODY bgcolor="black">
+	<DIV id="TipLayer" style="visibility:hidden;position:absolute;z-index:1000;top:-100"></DIV>
+	<SCRIPT language="JavaScript1.2" src="style.js" type="text/javascript"></SCRIPT>
+
+<CENTER>
+	<TABLE border="0" cellpadding="5" cellspacing="5" width="700" bgcolor="#E8E8FF" bordercolor="#000099" style="border-collapse: collapse" height="3950">
+		<TR>
+			<TD height="3900"><FONT face="Microsoft Sans Serif"><B>DHTML
+        Tip Message version 1.2</B></FONT>
+<P style="margin-bottom: 5"><FONT face="Microsoft Sans Serif"><BR><B>What is this?</B><BR>This is a DHTML Tip Message that enhances websites with
+        small popup information boxes to help visitors around
+        your website.<BR><BR><B>Acknowledgments</B><BR>Actually the original idea of the tip message is not mine
+        I got the idea from Mr. (Erik Bosrup) as he is the first to create this 
+script. However the discrepancy and difference in the implementations of the tip message are an ocean wide, 
+but however you may find some similar features. I (Essam
+        Gamal) rewrote the hole script in my own way and added
+        different new features so I could say that the credit of the
+        original idea goes to Mr. (Erik Bosrup) but the script
+        development and the implementation's credit goes to me.<BR><BR><B>What you may do to help me </B><BR>Since this is free please
+        don't try to sell this solution to a company claiming it
+        is yours. Give me credit where credit is due and I'll be
+        happy. <B>Pleas report any bugs</B> and if you have any new ideas or 
+        features&nbsp;that you think I should add&nbsp; pleas submit them<B> </B>. 
+And I'd love to see any changes you've done to the
+        code Email Me at </FONT><A href="mailto:migoicons@hotmail.com?subject=from a client" onMouseOver="stm(Text[0],Style[0])" onMouseOut="htm()"><FONT face="Microsoft Sans Serif">migoicons@hotmail.com.</FONT></A><FONT face="Microsoft Sans Serif"> Free to use don't abuse.<BR><BR><B>What version this is?</B><BR>This is version 1.2 . Make sure you check back to </FONT><A href="http://migoicons.tripod.com" onMouseOver="stm(Text[1],Style[0])" onMouseOut="htm()"><FONT face="Microsoft Sans Serif">My Home Page</FONT></A><FONT face="Microsoft Sans Serif"> now and then for new and
+        even better versions. This file and the source was last
+        edited on 
+<!--webbot bot="Timestamp" S-Type="EDITED" S-Format="%m/%d/%Y" startspan -->06/03/2003<!--webbot bot="Timestamp" endspan i-checksum="12542" -->. This version 
+is compatible with Netscape 4 + And Microsoft Internet Explorer 4+ and Opera 7.x 
+the code has been tested on all&nbsp; those browsers.<BR><BR></FONT><B><FONT face="Microsoft Sans Serif">
+What's new in 
+this version?</FONT></B></P>
+<P style="margin-bottom: 5"><FONT face="Microsoft Sans Serif">New feature added:<BR>Error notifications added to help you define the Style and&nbsp; Text array 
+correctly. If you remove an entry space or index from the Text or Style array an 
+alert box pops up notifying you about the error. For example the Text array 
+should always have two entries, one for the title which is the first entry and 
+one for the text which is the second entry <FONT color="#000099" size="2">Text[0]=[title(Entry 
+One), text(Entry two)]. </FONT>But however if&nbsp; you by mistake remove an 
+entry like this<FONT color="#000099"> <FONT size="2">Text[0]=[title(Entry One)]</FONT> </FONT>any 
+alert box pops up the same goes for the<FONT color="#000099"> Style array. </FONT></FONT><BR><FONT face="Microsoft Sans Serif">
+Important: To leave an entry empty you don't remove it rather you leave it with 
+two quotes around it Example:</FONT><FONT color="#000099" face="Microsoft Sans Serif">
+<FONT size="2">Text[0]=[ </FONT>
+</FONT><FONT size="2">
+<FONT color="#FF0000" face="Microsoft Sans Serif">&quot;&quot;</FONT><FONT color="#000099" face="Microsoft Sans Serif">,</FONT><FONT color="#FF0000" face="Microsoft Sans Serif"> 
+&quot;</FONT><FONT color="#000099" face="Microsoft Sans Serif">This has no title</FONT><FONT color="#FF0000" face="Microsoft Sans Serif">&quot;</FONT></FONT><FONT size="2" color="#000099" face="Microsoft Sans Serif"> ].
+</FONT></P>
+<P style="margin-bottom: 5"><FONT face="Microsoft Sans Serif">&nbsp;Bugs fixed :<BR>&nbsp;The script didn't work properly when you declared</FONT><BR><FONT face="Microsoft Sans Serif" color="#000099" size="2">&lt;!DOCTYPE 
+HTML PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot; &quot;http://www.w3.org/TR/html4/strict.dtd&quot;&gt;</FONT></P><FONT face="Microsoft Sans Serif">at the top of your HTML document, 
+            specially in ns6 +.<BR>In nn4 if you</FONT><FONT face="Microsoft Sans Serif" color="#000099">
+            </FONT><FONT face="Microsoft Sans Serif">declared the </FONT>
+            <FONT color="#000099" face="Microsoft Sans Serif"> <FONT size="2">&lt;SCRIPT language=&quot;JavaScript1.2&quot; src=&quot;main.js&quot;
+        type=&quot;text/javascript&quot;&gt;&lt;/SCRIPT&gt;</FONT>&nbsp;</FONT><FONT face="Microsoft Sans Serif">in 
+            the <FONT color="#000099" size="2">&lt;HEAD&gt;</FONT> section &nbsp;you had to reload 
+            the page before the tip message worked.</FONT>
+<P style="margin-bottom: 5"><B><FONT face="Microsoft Sans Serif">Sites using</FONT></B><FONT face="Microsoft Sans Serif"><B> DHTML 
+Tip Message.</B></FONT></P>
+<P style="margin-bottom: 5"><FONT face="Verdana,Arial,Helvetica">Send me a note 
+if your sites uses </FONT><FONT face="Microsoft Sans Serif">DHTML Tip Message</FONT><FONT face="Verdana,Arial,Helvetica"> 
+and it will be listed here.</FONT></P>
+<P style="margin-bottom: 5"><FONT face="Microsoft Sans Serif">No one has listed 
+their site yet. I will visit all the site that use this script and see how they 
+used it and if I like an implementation I will list it on my web site as a demo 
+with a direct link from where I got it. listing your web site also encourages to 
+make new better versions because it tells me that people are using it. Pleas 
+also tell me how you rate this product. </FONT></P>
+<P style="margin-bottom: 5"><FONT face="Microsoft Sans Serif"><BR><B>Instructions:</B><BR><BR><B>Step One:</B></FONT></P>
+<P style="margin-bottom: 5"><FONT face="Microsoft Sans Serif">Insert the following code right under the</FONT><FONT color="#000099" face="Microsoft Sans Serif"> &lt;HEAD&gt; </FONT>
+<FONT face="Microsoft Sans Serif">tag</FONT></P>
+<P style="margin-bottom: 5"><FONT color="#000099" size="2" face="Microsoft Sans Serif"> &lt;SCRIPT language=&quot;JavaScript1.2&quot; src=&quot;main.js&quot;
+        type=&quot;text/javascript&quot;&gt;&lt;/SCRIPT&gt;&nbsp;&nbsp;&nbsp;</FONT><BR><FONT face="Microsoft Sans Serif"><BR>Insert the following code right under the</FONT><FONT color="#000099" face="Microsoft Sans Serif"> &lt;BODY&gt;</FONT><FONT face="Microsoft Sans Serif"> tag and in the same order
+        first the </FONT><FONT color="#000099" face="Microsoft Sans Serif">&lt;DIV&gt;</FONT><FONT face="Microsoft Sans Serif"> 
+tag then the </FONT><FONT color="#000099" face="Microsoft Sans Serif">style.js</FONT><FONT face="Microsoft Sans Serif"> and make sure you linked to
+        the js files correctly.<BR><BR><FONT size="2" color="#000099">&nbsp;&lt;DIV 
+id=&quot;TipLayer&quot; 
+style=&quot;visibility:hidden;position:absolute;z-index:1000;top:-100;&quot;&gt;&lt;/DIV&gt;</FONT></FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif"><BR> &lt;SCRIPT language=&quot;JavaScript1.2&quot; src=&quot;style.js&quot;
+        type=&quot;text/javascript&quot;&gt;&lt;/SCRIPT&gt;          
+        </FONT><FONT face="Microsoft Sans Serif"><BR><BR><B>Step Two:</B><BR>Setting the 
+style and the text of the tip message. </FONT></P>
+<P style="margin-bottom: 5"><FONT face="Microsoft Sans Serif">Open the </FONT><FONT color="#000099" face="Microsoft Sans Serif">style.js</FONT><FONT face="Microsoft Sans Serif"> you will find two arrays The
+        </FONT><FONT color="#000099" face="Microsoft Sans Serif">Text[...]
+        </FONT><FONT face="Microsoft Sans Serif">and the </FONT><FONT color="#000099" face="Microsoft Sans Serif">Style[...]</FONT><FONT face="Microsoft Sans Serif">.<BR><BR><B>Setting the Text Array </B>: in The Text array you
+        have 2 different options in this order.<BR><BR></FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">Text=[...]=[title</FONT><B><FONT color="#FF0000" face="Microsoft Sans Serif">,</FONT></B><FONT color="#000099" size="2" face="Microsoft Sans Serif">text]</FONT><FONT color="#000099" face="Microsoft Sans Serif"><BR></FONT><FONT face="Microsoft Sans Serif"><BR>Here is The break down.<BR><BR></FONT><FONT size="2" face="Microsoft Sans Serif"><B>1 Title
+        :</B></FONT><FONT face="Microsoft Sans Serif"><BR>Sets the tip message's title leave empty for none. you
+        may also insert single quoted html tags. example </FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">&lt;font
+        color=</FONT><FONT color="#FF3300" size="2" face="Microsoft Sans Serif">'</FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">red</FONT><FONT color="#FF3300" size="2" face="Microsoft Sans Serif">'</FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">&gt;
+        single quoted &lt;/font&gt;</FONT><FONT color="#000099" face="Microsoft Sans Serif">. </FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">[QUOTES  
+        REQUIRED!!] </FONT><FONT face="Microsoft Sans Serif"><BR><BR></FONT><FONT size="2" face="Microsoft Sans Serif"><B>2
+        Text :</B></FONT><FONT face="Microsoft Sans Serif"><BR>Sets the tip message's body text you may also insert
+        single quoted html tags. </FONT><FONT color="#000099" face="Microsoft Sans Serif">  </FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">[QUOTES  
+        REQUIRED!!] </FONT><FONT color="#000099" face="Microsoft Sans Serif"><BR></FONT><FONT face="Microsoft Sans Serif"><BR><B>Setting the Style Array </B>: in the Style array you
+        have 25 different options in this order.<BR><BR></FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">Style[...]=[TitleColor</FONT><B><FONT color="#FF0000" face="Microsoft Sans Serif">,</FONT></B><FONT color="#000099" size="2" face="Microsoft Sans Serif">TextColor</FONT><B><FONT color="#FF0000" face="Microsoft Sans Serif">,</FONT></B><FONT color="#000099" size="2" face="Microsoft Sans Serif">TitleBgColor</FONT><B><FONT color="#FF0000" face="Microsoft Sans Serif">,</FONT></B><FONT color="#000099" size="2" face="Microsoft Sans Serif">TextBgColor</FONT><B><FONT color="#FF0000" face="Microsoft Sans Serif">,</FONT></B><FONT color="#000099" size="2" face="Microsoft Sans Serif">TitleBgImag</FONT><B><FONT color="#FF0000" face="Microsoft Sans Serif">,</FONT></B><FONT color="#000099" size="2" face="Microsoft Sans Serif">TextBgImag</FONT><B><FONT color="#FF0000" face="Microsoft Sans Serif">,</FONT></B><FONT color="#000099" size="2" face="Microsoft Sans Serif">TitleTextAlign</FONT><B><FONT color="#FF0000" face="Microsoft Sans Serif">,</FONT></B><FONT color="#000099" size="2" face="Microsoft Sans Serif">TextTextAlign</FONT><B><FONT color="#FF0000" face="Microsoft Sans Serif">,</FONT></B><FONT color="#000099" size="2" face="Microsoft Sans Serif">TitleFontFace</FONT><B><FONT color="#FF0000" face="Microsoft Sans Serif">,</FONT></B><FONT color="#000099" size="2" face="Microsoft Sans Serif"><BR>TextFontFace</FONT><B><FONT color="#FF0000" face="Microsoft Sans Serif">,</FONT></B><FONT color="#000099" size="2" face="Microsoft Sans Serif"> TipPosition</FONT><B><FONT color="#FF0000" face="Microsoft Sans Serif">,</FONT></B><FONT color="#FF0000" size="2" face="Microsoft Sans Serif"> </FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">StickyStyle</FONT><B><FONT color="#FF0000" face="Microsoft Sans Serif">,</FONT></B><FONT color="#000099" size="2" face="Microsoft Sans Serif"> TitleFontSize</FONT><B><FONT color="#FF0000" face="Microsoft Sans Serif">,</FONT></B><FONT color="#000099" size="2" face="Microsoft Sans Serif"> TextFontSize</FONT><B><FONT color="#FF0000" face="Microsoft Sans Serif">,</FONT></B><FONT color="#000099" size="2" face="Microsoft Sans Serif"> Width</FONT><B><FONT color="#FF0000" face="Microsoft Sans Serif">,</FONT></B><FONT color="#FF0000" size="2" face="Microsoft Sans Serif"> </FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">Height</FONT><B><FONT color="#FF0000" face="Microsoft Sans Serif">,</FONT></B><FONT color="#FF0000" size="2" face="Microsoft Sans Serif"> </FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">BorderSize</FONT><B><FONT color="#FF0000" face="Microsoft Sans Serif">,</FONT></B><FONT color="#000099" size="2" face="Microsoft Sans Serif"> PadTextArea</FONT><B><FONT color="#FF0000" face="Microsoft Sans Serif">,</FONT></B><FONT color="#000099" size="2" face="Microsoft Sans Serif"> CoordinateX </FONT>
+<B><FONT color="#FF0000" face="Microsoft Sans Serif">,</FONT></B><FONT color="#000099" size="2" face="Microsoft Sans Serif"> CoordinateY</FONT><B><FONT color="#FF0000" face="Microsoft Sans Serif">,</FONT></B><FONT color="#000099" size="2" face="Microsoft Sans Serif"> TransitionNumber</FONT><B><FONT color="#FF0000" face="Microsoft Sans Serif">,</FONT></B><FONT color="#000099" size="2" face="Microsoft Sans Serif"> TransitionDuration</FONT><B><FONT color="#FF0000" face="Microsoft Sans Serif">,</FONT></B><FONT color="#000099" size="2" face="Microsoft Sans Serif"> TransparencyLevel<B>
+</B></FONT><B><FONT color="#FF0000" face="Microsoft Sans Serif">,</FONT></B><FONT color="#000099" size="2" face="Microsoft Sans Serif">ShadowType</FONT><B><FONT color="#FF0000" face="Microsoft Sans Serif">,</FONT></B><FONT color="#000099" size="2" face="Microsoft Sans Serif"> ShadowColor]</FONT><FONT face="Microsoft Sans Serif"><BR><BR>Here is The break down.<BR><BR></FONT><FONT size="2" face="Microsoft Sans Serif"><B>1
+        TitleColor :</B></FONT><FONT face="Microsoft Sans Serif"><BR>Sets the title's 
+text color the bold text at the top you could
+        use HEX values like</FONT><FONT color="#FF0000" face="Microsoft Sans Serif"> </FONT><FONT color="#000099" face="Microsoft Sans Serif">#ffffff</FONT><FONT face="Microsoft Sans Serif"> or normal like </FONT><FONT color="#000099" face="Microsoft Sans Serif">white</FONT><FONT face="Microsoft Sans Serif">  </FONT><FONT size="2" face="Microsoft Sans Serif"> </FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">[QUOTES   REQUIRED!!]
+        </FONT><FONT face="Microsoft Sans Serif"><BR><BR></FONT><FONT size="2" face="Microsoft Sans Serif"><B>2
+        TextColor :</B></FONT><FONT face="Microsoft Sans Serif"><BR>Sets the text's 
+text color in the tip message. You could use
+        HEX values like </FONT><FONT color="#000099" face="Microsoft Sans Serif">#ffffff</FONT><FONT color="#FF0000" face="Microsoft Sans Serif"> </FONT><FONT face="Microsoft Sans Serif">or normal like white </FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">[QUOTES  
+        REQUIRED!!] </FONT><FONT face="Microsoft Sans Serif"><BR><BR></FONT><FONT size="2" face="Microsoft Sans Serif"><B>3
+        TitleBgColor :</B></FONT><FONT face="Microsoft Sans Serif"><BR>Sets the title's background Color 
+leave empty to make transparent </FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">[QUOTES  
+        REQUIRED!!] </FONT><FONT face="Microsoft Sans Serif"><BR><BR></FONT><FONT size="2" face="Microsoft Sans Serif"><B>4
+        TextBgColor :</B></FONT><FONT face="Microsoft Sans Serif"><BR>Sets the text's background Color 
+empty to make transparent</FONT><FONT size="2" face="Microsoft Sans Serif"> </FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">[QUOTES   REQUIRED!!]
+        </FONT><FONT face="Microsoft Sans Serif"><BR><BR></FONT><FONT size="2" face="Microsoft Sans Serif"><B>5
+        TitleBgImag :</B></FONT><FONT face="Microsoft Sans Serif"><BR>You may want to insert a background Image for the TITLE
+        rather than a background color, if the image is not in the
+        same directory or folder as your html file enter the full
+        location of the Image</FONT><FONT color="#000099" face="Microsoft Sans Serif"> Example : [&quot;pictures/bgimg.gif&quot;]</FONT><FONT color="#FF0000" face="Microsoft Sans Serif"> </FONT><FONT face="Microsoft Sans Serif">and don't forget to specify
+        the image's extension .jpg , gif ect </FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">[QUOTES  
+        REQUIRED!!] </FONT><FONT face="Microsoft Sans Serif"><BR><BR></FONT><FONT size="2" face="Microsoft Sans Serif"><B>6
+        TextBgImag :</B></FONT><FONT face="Microsoft Sans Serif"><BR>You may want to insert a background Image for the TEXT
+        rather than a background color, if the image is not in the
+        same directory or same folder as your html file enter the
+        full location of the Image Example :</FONT><FONT color="#FF0000" face="Microsoft Sans Serif"> </FONT><FONT color="#000099" face="Microsoft Sans Serif">[&quot;pictures/bgimg.gif&quot;]</FONT><FONT face="Microsoft Sans Serif"> and don't forget to specify
+        the image's extension .jpg , gif ect</FONT><FONT color="#000099" face="Microsoft Sans Serif"> </FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">[QUOTES  
+        REQUIRED!!] </FONT><FONT face="Microsoft Sans Serif"><BR><BR></FONT><FONT size="2" face="Microsoft Sans Serif"><B>7
+        TitleTextAlign :</B></FONT><FONT face="Microsoft Sans Serif"><BR>Sets 
+the position or </FONT><FONT size="2" face="Microsoft Sans Serif">Alignment </FONT><FONT face="Microsoft Sans Serif">
+of the TITLE, you have 3 choices</FONT><FONT color="#FF0000" face="Microsoft Sans Serif"> </FONT><FONT color="#000099" face="Microsoft Sans Serif">left</FONT><FONT color="#FF0000" face="Microsoft Sans Serif"> </FONT><FONT face="Microsoft Sans Serif">which is the default,</FONT><FONT color="#FF0000" face="Microsoft Sans Serif"> </FONT><FONT color="#000099" face="Microsoft Sans Serif">center, right
+        </FONT><FONT face="Microsoft Sans Serif">Leave Empty for
+        left </FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif"> [QUOTES   REQUIRED!!] </FONT><FONT face="Microsoft Sans Serif"><BR><BR></FONT><FONT size="2" face="Microsoft Sans Serif"><B>8
+        TextTextAlign :</B></FONT><FONT face="Microsoft Sans Serif"><BR>Sets the 
+position or </FONT><FONT size="2" face="Microsoft Sans Serif">Alignment</FONT><FONT face="Microsoft Sans Serif"> of the TEXT, you have 3 choices</FONT><FONT color="#FF0000" face="Microsoft Sans Serif"> </FONT><FONT color="#000099" face="Microsoft Sans Serif">left</FONT><FONT color="#FF0000" face="Microsoft Sans Serif"> </FONT><FONT face="Microsoft Sans Serif">which is the default, </FONT><FONT color="#000099" face="Microsoft Sans Serif">center, right
+        <FONT size="2">[QUOTES   REQUIRED!!] </FONT> </FONT><FONT face="Microsoft Sans Serif"><BR><BR></FONT><FONT size="2" face="Microsoft Sans Serif"><B>9
+        TitleFontFace :</B></FONT><FONT face="Microsoft Sans Serif"><BR>Sets the 
+title's font family or face&nbsp; </FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">Example [&quot;Tahoma&quot;]</FONT><FONT color="#000099" face="Microsoft Sans Serif"> </FONT><FONT face="Microsoft Sans Serif">Leave Empty for
+        Verdana,Arial,Helvetica Which is the default </FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">[QUOTES  
+        REQUIRED!!] </FONT><FONT face="Microsoft Sans Serif"><BR><BR></FONT><FONT size="2" face="Microsoft Sans Serif"><B>10
+        TextFontFace :</B></FONT><FONT face="Microsoft Sans Serif"><BR>Sets the 
+TEXT'S font family or face </FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">Example [&quot;Tahoma&quot;]</FONT><FONT face="Microsoft Sans Serif"> Leave Empty for
+        Verdana,Arial,Helvetica Which is the default </FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">[QUOTES  
+        REQUIRED!!] </FONT><FONT face="Microsoft Sans Serif"><BR><BR></FONT><FONT size="2" face="Microsoft Sans Serif"><B>11
+        TipPosition </B>:</FONT><FONT face="Microsoft Sans Serif"><BR>Sets the tip message's popup position you have <FONT color="#000099">5</FONT> choices </FONT><FONT color="#000099" face="Microsoft Sans Serif">left </FONT><FONT face="Microsoft Sans Serif">, </FONT><FONT color="#000099" face="Microsoft Sans Serif">center</FONT><FONT face="Microsoft Sans Serif">, </FONT><FONT color="#000099" face="Microsoft Sans Serif">right</FONT><FONT face="Microsoft Sans Serif">, </FONT><FONT color="#000099" face="Microsoft Sans Serif">
+float</FONT><FONT face="Microsoft Sans Serif">,</FONT><FONT color="#000099" face="Microsoft Sans Serif"> 
+fixed</FONT><FONT face="Microsoft Sans Serif"><BR>if you set it as<BR></FONT><FONT color="#FF0000" face="Microsoft Sans Serif"><BR></FONT><FONT face="Microsoft Sans Serif">1</FONT><FONT color="#FF0000" face="Microsoft Sans Serif"> </FONT><FONT color="#000099" face="Microsoft Sans Serif">left</FONT><FONT color="#FF0000" face="Microsoft Sans Serif"> </FONT><FONT face="Microsoft Sans Serif">
+the tip message will popup on the left side of the mouse.</FONT><BR><FONT color="#FF0000" face="Microsoft Sans Serif"><BR></FONT><FONT face="Microsoft Sans Serif">2</FONT><FONT color="#FF0000" face="Microsoft Sans Serif"> </FONT><FONT color="#000099" face="Microsoft Sans Serif">center </FONT><FONT face="Microsoft Sans Serif"> the tip message will popup
+        in the center , the mouse will be in the center of the
+        tip message.<BR></FONT><FONT color="#FF0000" face="Microsoft Sans Serif"> <BR></FONT><FONT face="Microsoft Sans Serif">3</FONT><FONT color="#FF0000" face="Microsoft Sans Serif"> </FONT><FONT color="#000099" face="Microsoft Sans Serif">right:</FONT><FONT color="#FF0000" face="Microsoft Sans Serif"> </FONT><FONT face="Microsoft Sans Serif"> this is the default
+        position you may leave the entry empty or set it as right.
+        In this case the tip message will popup on the right side
+        of the mouse<BR></FONT><FONT color="#FF0000" face="Microsoft Sans Serif"> <BR></FONT><FONT face="Microsoft Sans Serif">4</FONT><FONT color="#FF0000" face="Microsoft Sans Serif"> </FONT><FONT color="#000099" face="Microsoft Sans Serif">float:</FONT><FONT face="Microsoft Sans Serif"> the tip message will not
+        move with the mouse rather it will popup at the
+        coordinates of the </FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">X,Coordinate</FONT><FONT face="Microsoft Sans Serif"> and </FONT>
+<FONT face="Microsoft Sans Serif" size="2" color="#000099">Y,Coordinate</FONT><FONT face="Microsoft Sans Serif"> entries. And if you
+        scroll down or left the scroll values are added to the  </FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">X,Coordinate</FONT><FONT face="Microsoft Sans Serif"> and </FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">
+YCoordinate</FONT><FONT face="Microsoft Sans Serif"> 
+        values so the tip message will always </FONT><FONT color="#000099" face="Microsoft Sans Serif">float</FONT><FONT face="Microsoft Sans Serif"> in the same place no matter how much you 
+        scroll left or right, in simple words &quot;Static position&quot;</FONT></P>
+<P style="margin-bottom: 5"><FONT face="Microsoft Sans Serif" size="2">5</FONT><FONT face="Microsoft Sans Serif" size="2" color="#000099">&nbsp;
+        </FONT><FONT face="Microsoft Sans Serif" color="#000099">fixed </FONT>
+        <FONT face="Microsoft Sans Serif" size="2" color="#000099">: </FONT><FONT face="Microsoft Sans Serif">&nbsp;the tip message will not
+        move with the mouse rather it will popup at the
+        coordinates of the </FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">
+YCoordinate</FONT><FONT face="Microsoft Sans Serif"> and </FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">
+YCoordinate</FONT><FONT face="Microsoft Sans Serif"> entries&nbsp; And it&nbsp; will 
+<FONT color="#000099">not float</FONT> with 
+        the scrollbars. </FONT></P>
+<P style="margin-bottom: 5"><FONT color="#000099" size="2" face="Microsoft Sans Serif">[QUOTES   REQUIRED!!] </FONT><FONT face="Microsoft Sans Serif"><BR><BR></FONT><FONT size="2" face="Microsoft Sans Serif"><B>12
+        StickyStyle :</B></FONT><FONT face="Microsoft Sans Serif"><BR>Sets the Sticky 
+        Style type of the tip message you have 2 choices <FONT color="#000099">
+        sticky</FONT> , <FONT color="#000099">keep </FONT><BR><BR>1 </FONT><FONT color="#000099" face="Microsoft Sans Serif">sticky :</FONT><BR><FONT face="Microsoft Sans Serif">The tip message will not
+        hide after your mouse goes off the link and it will only&nbsp; be 
+        positioned once .<BR>A Close link is automatically generated and inserted at
+        the top right of the tip message so if you would like to
+        hide the tip message just click it. The properties (color,bgcolor
+        ect) of the close link are set from the title's
+        properties so the close link and title will have exactly
+        the same style and look as the title.<BR>This is designed specially for the need of inserting
+        links in the tip message or any thing that involves using
+        the mouse in tip message's content. leave this entry
+        empty for none sticky style.</FONT></P>
+<P style="margin-bottom: 5"><FONT face="Microsoft Sans Serif">2
+        <FONT color="#000099">keep:</FONT><BR>The tip message will not hide 
+        after your mouse goes of the link rather the tip message will move with 
+        your mouse around the page. This will produce the same effect as if you 
+        didn't specify the mouse out function in the link.<BR></FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">[QUOTES   REQUIRED!!] </FONT><FONT face="Microsoft Sans Serif"><BR><BR></FONT><FONT size="2" face="Microsoft Sans Serif"><B>13 
+        TitleFontSize :</B></FONT><FONT face="Microsoft Sans Serif"><BR>Sets the title's font size. Numbers only. You many use
+        negative or positive values like </FONT><FONT color="#000099" face="Microsoft Sans Serif">-1 or +1</FONT><FONT face="Microsoft Sans Serif"> or absolute values like</FONT><FONT color="#000099" face="Microsoft Sans Serif"> 1, 2, 3</FONT><FONT face="Microsoft Sans Serif"> the default size is </FONT><FONT color="#000099" face="Microsoft Sans Serif">1 </FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">[NO
+        QUOTES !!]</FONT><FONT face="Microsoft Sans Serif"><BR><BR></FONT><FONT size="2" face="Microsoft Sans Serif"><B>14
+        TextFontSize :</B></FONT><FONT face="Microsoft Sans Serif"><BR>Sets the Text's font size. Numbers only  you many use
+        negative or positive values like</FONT><FONT color="#000099" face="Microsoft Sans Serif"> -1 or +1</FONT><FONT face="Microsoft Sans Serif"> or absolute values like</FONT><FONT color="#000099" face="Microsoft Sans Serif"> 1, 2, 3</FONT><FONT color="#FF0000" face="Microsoft Sans Serif"> </FONT><FONT face="Microsoft Sans Serif">the default size is </FONT><FONT color="#000099" face="Microsoft Sans Serif">1</FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif"> [NO
+        QUOTES !!]</FONT><FONT face="Microsoft Sans Serif"><BR><BR></FONT><FONT size="2" face="Microsoft Sans Serif"><B>15
+        Width :</B></FONT><FONT face="Microsoft Sans Serif"><BR>Sets the width of the tip message. Full Numbers only. The
+        default width is <FONT color="#000099">200</FONT></FONT><FONT color="#000099" face="Microsoft Sans Serif"> </FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">[NO QUOTES !!]</FONT><FONT face="Microsoft Sans Serif"><BR><BR></FONT><FONT size="2" face="Microsoft Sans Serif"><B>16
+        height :</B></FONT><FONT face="Microsoft Sans Serif"><BR>Sets the height of the tip message. Full Numbers only.
+        The default height is the height needed to fit the
+        content however you may want to add extra height,  if
+        you do enter is value here. </FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">[NO QUOTES !!]</FONT><FONT face="Microsoft Sans Serif"><BR><BR></FONT><FONT size="2" face="Microsoft Sans Serif"><B>17
+        BorderSize :</B></FONT><FONT face="Microsoft Sans Serif"><BR>Sets the border size which is the colored frame around
+        the tip message. Its color is set from the title's
+        bgcolor. and again Full Numbers only . if you don't want
+        a border set it as </FONT><FONT color="#000099" face="Microsoft Sans Serif">0</FONT><FONT face="Microsoft Sans Serif"> or leave its entry empty.  </FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">[NO
+        QUOTES !!]</FONT><FONT face="Microsoft Sans Serif"><BR><BR></FONT><FONT size="2" face="Microsoft Sans Serif"><B>18
+        PadTextArea :</B></FONT><FONT face="Microsoft Sans Serif"><BR>Adds extra 
+padding to the area of the text this adds extra space from the left, top, right, 
+and bottom in the text content</FONT><FONT size="2" face="Microsoft Sans Serif"> </FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">[NO QUOTES !!]</FONT><FONT face="Microsoft Sans Serif"><BR><BR></FONT><FONT size="2" face="Microsoft Sans Serif"><B>19
+        CoordinateX :</B></FONT><FONT face="Microsoft Sans Serif"><BR>1 If the tip message's position is set as </FONT><FONT color="#000099" face="Microsoft Sans Serif">left </FONT>
+        <FONT face="Microsoft Sans Serif">or</FONT><FONT color="#000099" face="Microsoft Sans Serif"> right</FONT><FONT face="Microsoft Sans Serif">&nbsp; 
+        it sets the&nbsp; X coordinate of the tip message relative to the 
+position of the mouse.<BR>2&nbsp; If the tip message's position is set as&nbsp; </FONT><FONT color="#000099" face="Microsoft Sans Serif">float </FONT>
+        <FONT face="Microsoft Sans Serif">or</FONT><FONT color="#000099" face="Microsoft Sans Serif"> fixed</FONT><FONT face="Microsoft Sans Serif"> 
+it sets the X coordinate of the tip message&nbsp; relative to the window.
+You may set positive or negative numbers.</FONT><BR>The 
+        default value is<FONT size="4"><B> </B></FONT> <FONT color="#000099">10</FONT><FONT color="#000099" face="Microsoft Sans Serif">. </FONT><FONT face="Microsoft Sans Serif">&nbsp;</FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">[NO QUOTES !!]</FONT><FONT size="2" face="Microsoft Sans Serif"><BR></FONT><FONT face="Microsoft Sans Serif"><BR></FONT><FONT size="2" face="Microsoft Sans Serif"><B>20
+        CoordinateY :</B></FONT><FONT face="Microsoft Sans Serif"><BR>1 If the tip message's position is set as </FONT><FONT color="#000099" face="Microsoft Sans Serif">left </FONT>
+        <FONT face="Microsoft Sans Serif">or</FONT><FONT color="#000099" face="Microsoft Sans Serif"> right</FONT><FONT face="Microsoft Sans Serif">&nbsp; 
+        or <FONT color="#000099">center</FONT> it sets the&nbsp; Y coordinate of the tip message relative to the 
+position of the mouse.<BR>2&nbsp; If the tip message's position is set as&nbsp; </FONT><FONT color="#000099" face="Microsoft Sans Serif">float </FONT>
+        <FONT face="Microsoft Sans Serif">or</FONT><FONT color="#000099" face="Microsoft Sans Serif"> fixed</FONT><FONT face="Microsoft Sans Serif"> 
+it sets the Y coordinate of the tip message&nbsp; relative to the window.
+You may set positive or negative numbers.</FONT><BR>The 
+        default value is<FONT size="4"><B> </B></FONT> <FONT color="#000099">10</FONT><FONT color="#000099" face="Microsoft Sans Serif">. </FONT><FONT face="Microsoft Sans Serif">&nbsp;</FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">[NO QUOTES !!]</FONT><FONT face="Microsoft Sans Serif">&nbsp;</FONT><FONT face="Microsoft Sans Serif"><BR><BR></FONT><FONT size="2" face="Microsoft Sans Serif"><B>21
+        Transition :</B></FONT><FONT face="Microsoft Sans Serif"><BR>Sets the transition number. The transition is the cool
+        visual effect when the tip message shows. You have a
+        choice from </FONT><FONT color="#000099" face="Microsoft Sans Serif">0 </FONT><FONT face="Microsoft Sans Serif">to</FONT><FONT color="#000099" face="Microsoft Sans Serif"> 
+51</FONT><FONT face="Microsoft Sans Serif"> different effects, </FONT><FONT color="#000099" face="Microsoft Sans Serif">23</FONT><FONT face="Microsoft Sans Serif"> is random for 
+the 22 first effects and <FONT color="#000099">51</FONT> is random for all. To disable the
+        transition set the value to<FONT color="#000099"> -1</FONT>. Full Numbers only . Make
+        sure that the </FONT><FONT color="#000099" face="Microsoft Sans Serif">FiltersEnabled</FONT><FONT face="Microsoft Sans Serif"> variable is set to 
+1 or
+        the transition won't play. This requires Microsoft
+        Internet Explorer 5.5 or later. </FONT><FONT size="2" face="Microsoft Sans Serif"> </FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">[NO QUOTES !!]</FONT><FONT face="Microsoft Sans Serif"><BR><BR></FONT><FONT size="2" face="Microsoft Sans Serif"><B>22
+        TransitionDuration :</B></FONT><FONT face="Microsoft Sans Serif"><BR>Sets the duration of the transition the time desired of
+        transition action in seconds. You may use decimal numbers
+        such as </FONT><FONT color="#000099" face="Microsoft Sans Serif">0.3</FONT><FONT face="Microsoft Sans Serif"> or full numbers like </FONT><FONT color="#000099" face="Microsoft Sans Serif">1</FONT><FONT face="Microsoft Sans Serif"> . Setting the value to </FONT><FONT color="#000099" face="Microsoft Sans Serif">0</FONT><FONT face="Microsoft Sans Serif"> also disables the transition.
+        This requires Microsoft Internet Explorer 5.5 or later. </FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">[NO
+        QUOTES !!] </FONT><FONT face="Microsoft Sans Serif"><BR><BR></FONT><FONT size="2" face="Microsoft Sans Serif"><B> 23
+        TransparencyLevel :</B></FONT><FONT face="Microsoft Sans Serif"><BR>Add transparency level from 1 to 99 the decreasing values
+        increase transparency so if you set it to 1 you will
+        barley see the tip message and that's if you have good
+        eyesight, if you set it to 99 it will be least
+        transparent get the point?.  Set </FONT><FONT color="#000099" face="Microsoft Sans Serif">0</FONT><FONT face="Microsoft Sans Serif"> for none. This requires
+        Microsoft Internet Explorer 5.5 or later. </FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">[NO
+        QUOTES !!]</FONT><FONT face="Microsoft Sans Serif"><BR><BR></FONT><FONT size="2" face="Microsoft Sans Serif"><B>24
+        ShadowType :</B></FONT><FONT face="Microsoft Sans Serif"><BR>You may apply one of two shadow styles</FONT><FONT color="#FF0000" face="Microsoft Sans Serif"> </FONT><FONT color="#000099" face="Microsoft Sans Serif">simple</FONT><FONT face="Microsoft Sans Serif"> or</FONT><FONT color="#000099" face="Microsoft Sans Serif"> complex </FONT><FONT face="Microsoft Sans Serif">leave empty for none. You
+        must also add a shadow color to enabled it. This requires
+        Microsoft Internet Explorer 5.5 or later.  </FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">[QUOTES  
+        REQUIRED!!] </FONT><FONT face="Microsoft Sans Serif"><BR><BR></FONT><FONT size="2" face="Microsoft Sans Serif"><B>25
+        ShadowColor :</B></FONT><FONT face="Microsoft Sans Serif"><BR>Sets the shadow color.  Leave empty to also disable the
+        shadow</FONT><FONT color="#000099" face="Microsoft Sans Serif">. </FONT><FONT face="Microsoft Sans Serif">This requires Microsoft
+        Internet Explorer 5.5 or later</FONT><FONT color="#000099" face="Microsoft Sans Serif">.  </FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">[QUOTES  
+        REQUIRED!!] </FONT></P>
+<P style="margin-bottom: 5"><FONT face="Microsoft Sans Serif"><B>Step Three</B><BR>Implementing them in link tags. </FONT></P>
+<P style="margin-bottom: 5"><FONT face="Microsoft Sans Serif">To implement the tip message
+        you use a link with these two function assigned to it .
+        The </FONT><FONT color="#000099" face="Microsoft Sans Serif">stm</FONT><FONT face="Microsoft Sans Serif"> which means show tip message
+        and </FONT><FONT color="#000099" face="Microsoft Sans Serif">htm</FONT><FONT face="Microsoft Sans Serif"> which mean hide tip message.
+        Example</FONT></P>
+<P style="margin-bottom: 5"><FONT color="#000099" size="2" face="Microsoft Sans Serif">&lt;A href=&quot;#&quot;
+        onMouseOver=&quot;</FONT><FONT color="#FF3300" size="2" face="Microsoft Sans Serif">stm(Text[2],Style[0])</FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">&quot;
+        onMouseOut=&quot;</FONT><FONT color="#FF3300" size="2" face="Microsoft Sans Serif">htm()</FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">&quot;&gt;this
+        is a link&lt;/A&gt; </FONT></P>
+<P style="margin-bottom: 5"><FONT size="2" face="Microsoft Sans Serif">The tip message attached to
+        this  link will take the Text from the </FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">Text[2]</FONT><FONT size="2" face="Microsoft Sans Serif"> Array  and the
+        Style from the </FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">Style[0]</FONT><FONT size="2" face="Microsoft Sans Serif"> Array . 
+Make sure that both the <FONT color="#FF3300">T</FONT>ext array and
+<FONT color="#FF3300">S</FONT>tyle begin with a capital letter.&nbsp; </FONT></P>
+<P style="margin-bottom: 5"><FONT color="#FF3300" size="2" face="Microsoft Sans Serif">Text[2]</FONT><FONT color="#000099" size="2" face="Microsoft Sans Serif">=[&quot;This
+        is the title&quot;,&quot;Well How do you find this Tip
+        message to be?. &quot;]</FONT><FONT face="Microsoft Sans Serif"><BR><FONT size="2" color="#FF0000">Style[0]</FONT><FONT size="2" color="#000099">=[&quot;white&quot;,&quot;black&quot;,&quot;#000099&quot;,&quot;#E8E8FF&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,200,&quot;&quot;,2,2,10,10,51,1,0,&quot;&quot;,&quot;&quot;]</FONT></FONT></P>
+<P style="margin-bottom: 5"><FONT size="2" face="Microsoft Sans Serif">Try this Example in the link
+        below</FONT><FONT face="Microsoft Sans Serif"><BR><BR></FONT><A href="#" onMouseOver="stm(Text[2],Style[0])" onMouseOut="htm()"><FONT face="Microsoft Sans Serif">this
+        is a link</FONT></A></P>
+<P style="margin-bottom: 5"><FONT face="Microsoft Sans Serif">Notice that I left some
+        entries empty in the Style array . When you leave an
+        empty entry the default value is implemented for that
+        entry. You may leave all the entries empty for the
+        complete default style.   And also notice where I used
+        quotes and where I didn't .To put it simple use quotes
+        around text entries and don't use them around numbers .<BR>For every new 
+        style or text increase the index value by one starting from 0<FONT color="#000099">
+        Text[0], Text[1] </FONT>/// <FONT color="#000099">Style[0], Style[1] </FONT> 
+        ect .&nbsp; Oh and make sure you didn't use repetitive Arrays. Example: 
+having two arrays the same <FONT color="#000099">Style[0], Style[0]. </FONT>You 
+may use the same <FONT color="#000099">Style</FONT> and <FONT color="#000099">
+Text</FONT> array again in any other link, so if you want all the tips to have 
+the same style and different content use the same <FONT color="#000099">Style</FONT> array in all of 
+them and different <FONT color="#000099">Text </FONT>arrays. The same goes with 
+the <FONT color="#000099">Text</FONT> array.</FONT></P>
+<P style="margin-bottom: 5"><FONT face="Microsoft Sans Serif">Well that's all 
+their is to set it .... if you still don't understand or if 
+        you have any bugs pleas email me. Thanks and enjoy</FONT></P>
+			</TD>
+		</TR>
+	</TABLE>
+</DIV>
+</BODY>
+</HTML>

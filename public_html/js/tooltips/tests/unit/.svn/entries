@@ -1,0 +1,29 @@
+8
+
+dir
+2
+https://tooltips.googlecode.com/svn/trunk/tests/unit
+https://tooltips.googlecode.com/svn
+
+
+
+2007-04-30T07:21:11.269615Z
+2
+andrej.okonetschnikow
+
+
+svn:special svn:externals svn:needs-lock
+
+unit-tooltips-test.html
+file
+7
+
+
+
+2007-04-30T22:17:17.000000Z
+1a57ad6d8ebce6f4c29075494cf03eb8
+2007-04-30T22:19:52.210067Z
+7
+andrej.okonetschnikow
+has-props
+
